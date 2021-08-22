@@ -1,0 +1,36 @@
+<main id="main">
+  <h1 id="title">Simone Biles</h1>
+  <p><h2>American Artistic Gymnast</h2></p>
+  <figure id="img-div">
+    <img id="image"  class="responsive-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Simone_Biles_Rio_2016e.jpg/250px-Simone_Biles_Rio_2016e.jpg" alt="Biles at the 2016 Summer Olympics"/>
+    <figcaption id="img-caption">
+    At the 2016 Summer Olympics in Rio de Janeiro, Biles won individual gold medals in the all-around, vault, and floor; bronze on balance beam; and gold as part of the United States team, dubbed the "Final Five".
+    </figcaption>
+  </figure>
+  <section id="tribute-info">
+    Biles is a five-time World all-around champion (2013–2015, 2018–2019), five-time World floor exercise champion (2013–2015, 2018–2019), three-time World balance beam champion (2014–2015, 2019), two-time World vault champion (2018–2019), a seven-time United States national all-around champion (2013–2016, 2018–2019, 2021), and a member of the gold medal-winning American teams at the 2014, 2015, 2018, and 2019 World Artistic Gymnastics Championships. Additionally, she is a three-time World silver medalist (2013 and 2014 on vault, 2018 on uneven bars) and a three-time World bronze medalist (2015 on vault, 2013 and 2018 on balance beam).
+
+Biles is the gymnast with the most World medals (25) and most World gold medals (19), having surpassed Vitaly Scherbo's record 23 World medals by winning her 24th and 25th, both gold, at the 2019 competition in Stuttgart. She is the female gymnast with the most World all-around titles (5). Biles is the sixth woman to win an individual all-around title at both the World Championships and the Olympics, and the first gymnast since Lilia Podkopayeva in 1996 to hold both titles simultaneously. She is the tenth female gymnast and first American female gymnast to win a World medal on every event, and the first female gymnast since Daniela Silivaș in 1988 to win a medal on every event at a single Olympic Games or World Championships, having accomplished this feat at the 2018 World Championships in Doha.
+  </section>
+  <a id="tribute-link" href="https://en.wikipedia.org/wiki/Simone_Biles" target="_blank">Wikipedia Page</a>
+</main>
+
+main {
+  text-align: center;
+  background-color: green;
+}
+
+#tribute-info {
+  text-align: left;
+}
+
+#tribute-link {
+  text-color: black;
+}
+
+.responsive-img {
+max-width: 100%;
+height: auto;
+display: block;
+  margin: 0 auto;
+}
